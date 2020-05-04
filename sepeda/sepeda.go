@@ -1,10 +1,5 @@
 package sepeda
 
-type Maju interface {
-	Cepat(jarak float32) float32
-	Lambat(jarak float32) float32
-}
-
 var waktuSepeda float32
 
 type Sepeda struct {

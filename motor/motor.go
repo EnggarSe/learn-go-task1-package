@@ -1,10 +1,5 @@
 package motor
 
-type Maju interface {
-	Cepat(jarak float32) float32
-	Lambat(jarak float32) float32
-}
-
 type Motor struct {
 	jumlahBan  int
 	jumlahGigi int
